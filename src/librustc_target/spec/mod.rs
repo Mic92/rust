@@ -461,6 +461,8 @@ supported_targets! {
     ("x86_64-unknown-uefi", x86_64_unknown_uefi),
 
     ("nvptx64-nvidia-cuda", nvptx64_nvidia_cuda),
+
+    ("xtensa-none-eabi", xtensa_none_eabi),
 }
 
 /// Everything `rustc` knows about how to compile for a specific target.
